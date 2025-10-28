@@ -23,7 +23,7 @@ build
 !.yarn/sdks
 !.yarn/versions
 
-.medusa/server/node_modules
+!.medusa/server/node_modules
 
 
 .vscode
