@@ -2113,7 +2113,7 @@
   dependencies:
     ioredis "^5.4.1"
 
-"@medusajs/caching-redis@^2.11.1", "@medusajs/caching-redis@2.11.1":
+"@medusajs/caching-redis@2.11.1":
   version "2.11.1"
   resolved "https://registry.npmjs.org/@medusajs/caching-redis/-/caching-redis-2.11.1.tgz"
   integrity sha512-Y1EY6MWbPyQvA9AhNKx4mCA1XuN2Ay3Y65Jn0jSn/jUbazRgldWjoSO/vVOgqV7Lh20sBJjL+QwueRA+M9Jeqg==
@@ -2379,7 +2379,7 @@
   resolved "https://registry.npmjs.org/@medusajs/locking/-/locking-2.11.1.tgz"
   integrity sha512-qd5YVUvCGWaJpTovj0nI3QU2b3OlQX4ptJE15UJfAwGLGBYqqW7ChgByL0a6FgIr5gFjK2gnY67a2nsDfKJEfA==
 
-"@medusajs/medusa@^2.11.1", "@medusajs/medusa@2.11.1":
+"@medusajs/medusa@2.11.1":
   version "2.11.1"
   resolved "https://registry.npmjs.org/@medusajs/medusa/-/medusa-2.11.1.tgz"
   integrity sha512-eqnxCfUV44El2qpcFBxPmLREs+7OScIsrkFsyxrilnSFx9t5e7YorO+L6OEFdrcW01x8pw5MLtAyK/6imGvA6A==
@@ -2937,6 +2937,13 @@
   dependencies:
     "@opentelemetry/semantic-conventions" "1.28.0"
 
+"@opentelemetry/core@^2.0.0", "@opentelemetry/core@2.2.0":
+  version "2.2.0"
+  resolved "https://registry.npmjs.org/@opentelemetry/core/-/core-2.2.0.tgz"
+  integrity sha512-FuabnnUm8LflnieVxs6eP7Z383hgQU4W1e3KJS6aOG3RxWxcHyBxH8fDMHNgu/gFx/M2jvTOW/4/PHhLz6bjWw==
+  dependencies:
+    "@opentelemetry/semantic-conventions" "^1.29.0"
+
 "@opentelemetry/core@1.26.0":
   version "1.26.0"
   resolved "https://registry.npmjs.org/@opentelemetry/core/-/core-1.26.0.tgz"
@@ -2948,13 +2955,6 @@
   version "2.0.0"
   resolved "https://registry.npmjs.org/@opentelemetry/core/-/core-2.0.0.tgz"
   integrity sha512-SLX36allrcnVaPYG3R78F/UZZsBsvbc7lMCLx37LyH5MJ1KAAZ2E3mW9OAD3zGz0G8q/BtoS5VUrjzDydhD6LQ==
-  dependencies:
-    "@opentelemetry/semantic-conventions" "^1.29.0"
-
-"@opentelemetry/core@2.2.0":
-  version "2.2.0"
-  resolved "https://registry.npmjs.org/@opentelemetry/core/-/core-2.2.0.tgz"
-  integrity sha512-FuabnnUm8LflnieVxs6eP7Z383hgQU4W1e3KJS6aOG3RxWxcHyBxH8fDMHNgu/gFx/M2jvTOW/4/PHhLz6bjWw==
   dependencies:
     "@opentelemetry/semantic-conventions" "^1.29.0"
 
