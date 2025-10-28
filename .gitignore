@@ -23,6 +23,9 @@ build
 !.yarn/sdks
 !.yarn/versions
 
-!.medusa/server
+.medusa/server/node_modules
+
 
 .vscode
+.env.template
+.env.prod
