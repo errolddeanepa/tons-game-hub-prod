@@ -13,10 +13,9 @@ COPY . .
 RUN npx medusa build
 
 # Install dependencies in the build output directory & Run migrations before starting the server
-RUN cd .medusa/server 
-RUN npm install && npm run predeploy
-
-RUN cd .medusa/server 
+ENV NODE_ENV=production
+ENV PORT=9000
+EXPOSE 9000
 
 # Start the Medusa server in production mode
-CMD ["npm", "run", "start"]
+CMD ["npm", "run", "dev"]
